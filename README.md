@@ -16,7 +16,7 @@ BlackLightBurn UI library started
 
 3. **Create** ``variables.css`` and import in ``app.js`` .
 ```
-import '@/styles/variables.css';
+import 'blb-ui-lib/src/variables.css';
 
 export default function App({ Component, pageProps }: any) {
   return <Component {...pageProps} />;
