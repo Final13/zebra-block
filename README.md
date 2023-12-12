@@ -62,7 +62,7 @@ const jsonExample = {
 // Example 8: Zebra Block with JSON (ignores Children prop)
 ```
 <Zebra json={jsonExample}>
-  {/* This content will be displayed, ignoring the JSON prop */}
+  {/* This content will be ignored, because JSON prop passed */}
   <p>Custom content</p>
 </Zebra>
 ```
