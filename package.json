@@ -1,6 +1,6 @@
 {
   "name": "zebra-block",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Component for displaying a zebra block for debugging purposes",
   "type": "module",
   "main": "dist/index.js",
