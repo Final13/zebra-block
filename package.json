@@ -1,7 +1,7 @@
 {
-  "name": "blb-ui-lib",
-  "version": "1.0.20",
-  "description": "An empty base template for publishing a React TS package to npmjs library.",
+  "name": "zebra-block",
+  "version": "1.0.5",
+  "description": "Component for displaying a zebra block for debugging purposes",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -14,18 +14,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackLightBurn/blb-ui-lib"
+    "url": "https://github.com/Final13/zebra-block"
   },
   "keywords": [
     "react",
     "typescript"
   ],
-  "author": "blacklightburn",
+  "author": "i.matskevich",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BlackLightBurn/blb-ui-lib/issues"
+    "url": "https://github.com/Final13/zebra-block/issues"
   },
-  "homepage": "https://github.com/BlackLightBurn/blb-ui-lib#readme",
+  "homepage": "https://github.com/Final13/zebra-block#readme",
   "peerDependencies": {
     "react": ">=18.2.0",
     "react-dom": ">=18.2.0",
@@ -42,7 +42,6 @@
     "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^6.7.2",
     "@typescript-eslint/parser": "^6.7.2",
-    "clsx": "^2.0.0",
     "eslint": "^8.49.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",

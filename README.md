@@ -1,26 +1,23 @@
-# BlackLightBurn UI Library
-
-BlackLightBurn UI library started
+# Zebra block
 
 ## Installation
 
-1. **Install** blb-ui-lib:
+1. **Install** zebra-block:
 ```
-  npm install --save blb-ui-lib
-```
-
-2. **Import** components into your project
-```
-  import { Button, SmartButton, useButtonStatus } from 'blb-ui-lib';
+  npm install zebra-block
 ```
 
-3. **Create** ``variables.css`` and import in ``app.js`` .
+2. **Import** component into your project
 ```
-import 'blb-ui-lib/src/variables.css';
+  import { Zebra } from 'zebra-block';
+```
 
-export default function App({ Component, pageProps }: any) {
-  return <Component {...pageProps} />;
-}
+3. **Usage**.
+```
+  <Zebra json={json} />
+  <Zebra>
+    Lorem ipsum...
+  </Zebra>
 ```
 
 
