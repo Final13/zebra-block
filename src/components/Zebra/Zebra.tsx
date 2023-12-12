@@ -10,20 +10,18 @@ interface ZebraProps {
   height?: number;
   style?: React.CSSProperties;
   json?: unknown;
-  pretty?: boolean;
 }
 
 export const Zebra = ({
   as: As = 'div',
   children,
-  color = '#fcfcfc77',
+  color = '#333',
   border = 0,
   colors = ['#fcfcfc77', '#eeeeee77'],
   padding,
   height,
   style,
   json = null,
-  pretty = true,
   ...other
 }: ZebraProps) => (
   <As
@@ -37,6 +35,6 @@ export const Zebra = ({
     }}
     {...other}
   >
-    {json ? (pretty ? JSON.stringify(json, null, 2) : JSON.stringify(json)) : children}
+    {json ? JSON.stringify(json, null, 2) : children}
   </As>
 );
