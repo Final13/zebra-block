@@ -13,6 +13,7 @@
     ```
 
 3. **Usage examples**:
+
 // Example 1: Default Zebra Block
 ```
 <Zebra>
